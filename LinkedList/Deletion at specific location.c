@@ -16,7 +16,6 @@ Node* createNode(int data) {
     newNode->next = NULL;
     return newNode;
 }
-
 // Function to delete a node after a given node
 void deleteAfter(Node* prevNode) {
     if (prevNode == NULL || prevNode->next == NULL) {
