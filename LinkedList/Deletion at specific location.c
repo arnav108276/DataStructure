@@ -38,7 +38,6 @@ void displayList(Node* head) {
     }
     printf("NULL\n");
 }
-
 int main() {
     Node* head = createNode(10);
     head->next = createNode(20);
