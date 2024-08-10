@@ -6,7 +6,6 @@ typedef struct Node {
     int data;
     struct Node* next;
 } Node;
-
 // Function to create a new node
 Node* createNode(int data) {
     Node* newNode = (Node*) malloc(sizeof(Node));
