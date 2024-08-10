@@ -50,7 +50,6 @@ int main() {
 
     printf("Linked List after deletion: ");
     displayList(head);
-
     // Free the remaining allocated memory (for completeness)
     while (head) {
         Node* temp = head;
