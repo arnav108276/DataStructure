@@ -45,9 +45,7 @@ int main() {
 
     printf("Original Linked List: ");
     displayList(head);
-
     deleteAfter(head->next); // Delete node after the second node (20)
-
     printf("Linked List after deletion: ");
     displayList(head);
     // Free the remaining allocated memory (for completeness)
